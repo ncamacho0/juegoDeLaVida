@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Juego de la vida</title>
+</head>
+<body>
+  <h1>Juego de la vida</h1>
+  <h2>Instrucciones: Elige el tamaño del tablero, crealó, elije las celulas vivas e inicia el juego</h2>
+  <label>Ancho: <input type="number" class="numero"  id="ancho" value="10" /></label>
+  <label>Alto: <input type="number" class="numero"  id="alto" value="10" /></label>
+  <input type="button" onclick="generarCelulas()" value="Generar/Vaciar tablero" />
+  <input type="button" id="inicio" onclick="iniciarJuego();" value="Iniciar" />
+  <table id="celulas"></table>
+       
+</body>
+</html>

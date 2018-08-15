@@ -1,0 +1,30 @@
+body {
+  font-family: Segoe UI, Tahoma, sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+}
+h2{
+  font-size: 15px;
+}
+input, label {
+  font-size: 15px;
+}
+.numero {
+  width: 50px;
+}
+table {
+  margin: 20px auto 0;
+}
+td {
+  padding: 1px;
+  width: 25px;
+  height: 25px;
+  background-color: #ccc;
+  cursor: pointer;
+  border-radius: 6px;
+}
+td.vivo {
+  background-color: black;
+}
